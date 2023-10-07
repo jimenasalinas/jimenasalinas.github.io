@@ -1,77 +1,85 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Jimena Salinas</title>
-    <meta charset="utf-8">
-    <meta name="author" content="Jimena Salinas">
-    <style>
-      body {
-        padding-top: 40px;
-        padding-bottom: 40px;
-        background-color: #004643;
-      }
-      .banner-image {
-        width: 128px;
-        height: 128px;
-        object-fit: cover;
-        border-radius: 128px;
-      }
 
-        .thumbnail {
-        width: 48px;
-        height: 48px;
-        border-radius: 48px;
-        object-fit: cover;
-      }
+<head>
+  <title>Jimena Salinas</title>
+  <meta charset="utf-8">
+  <meta name="author" content="Jimena Salinas">
+  <style>
+    body {
+      /* padding-top: 40px;
+        padding-bottom: 40px; */
+      display: flex;
+      justify-content: center;
+      background-color: #004643;
+    }
 
-      .name {
-        color: #fffffe;
-        display: flex;
-        justify-content: center;
-      }
+    .banner-image {
+      width: 128px;
+      height: 128px;
+      object-fit: cover;
+      border-radius: 128px;
+    }
 
-      .banner {
-        display: flex;
-        justify-content: center;
-      }
+    .thumbnail {
+      width: 48px;
+      height: 48px;
+      border-radius: 48px;
+      object-fit: cover;
+    }
 
-      .social-icons {
-          display: flex;
-          justify-content: space-around;
-      }
+    .name {
+      color: #fffffe;
+      display: flex;
+      justify-content: center;
+    }
 
-      .social-icons a {
+    .banner {
+      display: flex;
+      justify-content: center;
+    }
+
+    .social-icons {
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .social-icons a {
       color: #fffffe;
       text-decoration: none;
-       }
+    }
 
-       .link {
+    .link {
       background-color: #f9bc60;
       display: flex;
       align-items: center;
-      }
+      padding: 5px;
+    }
 
-      .link a {
-        color: #001e1d;
-        text-decoration: none;
-        text-align: center;
-        flex-grow: 1;
-      }
+    .link a {
+      color: #001e1d;
+      text-decoration: none;
+      text-align: center;
+      flex-grow: 1;
+    }
 
-      .items {
+    .items {
       display: flex;
       flex-direction: column;
       gap: 30px;
       max-width: 640px;
       flex-grow: 1;
-      }
-    </style>
-  </head>
+      /* justify-content: center; */
+    }
 
-  <body>
-    <div class = "banner">
-      <img 
-      src ="/thumbnails/PhotoJimena.JPG" alt = "Jimena Salinas" class="banner-image">
+  </style>
+</head>
+
+<body>
+  <div class="items">
+
+    <div class="banner">
+      <img src="/thumbnails/PhotoJimena.JPG" alt="Jimena Salinas" class="banner-image">
     </div>
 
     <div class="name">
@@ -79,19 +87,33 @@
     </div>
 
     <div class="link">
-      <img class="thumbnail"
-        src = "/thumbnails/github.png">
+      <img class="thumbnail" src="/thumbnails/x-ray.png">
 
-      <a  target = "_blank" href = "https://github.com/jimenasalinas">My Coding Projects</a>
+      <a target="_blank" href="https://github.com/jimenasalinas/predicting_pneumonia">Using Deep Learning to Predict
+        Pneumonia</a>
     </div>
 
-    <div class ="link">
-      <img  class="thumbnail"
-      src = "/thumbnails/linkedin.png"> 
+    <div class="link">
+      <img class="thumbnail" src="/thumbnails/map.png">
 
-      <a target ="_blank" href = "https://www.linkedin.com/in/salinasjimena/">LinkedIn</a>
+      <a target="_blank" href="https://github.com/uchicago-capp122-winter23/30122-project-maroon-justice-index">Mapping
+        Period Poverty in Chicago</a>
+    </div>
+
+    <div class="link">
+      <img class="thumbnail" src="/thumbnails/github.png">
+
+      <a target="_blank" href="https://github.com/jimenasalinas">Other Repos</a>
+    </div>
+
+    <div class="link">
+      <img class="thumbnail" src="/thumbnails/linkedin.png">
+
+      <a target="_blank" href="https://www.linkedin.com/in/salinasjimena/">LinkedIn</a>
+    </div>
+    </di>
   </div>
-</div>
 
-  </body>
+</body>
+
 </html>
