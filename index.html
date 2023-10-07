@@ -26,6 +26,18 @@
 
       .name {
         color: #fffffe;
+        display: flex;
+        justify-content: center;
+      }
+
+      .banner {
+        display: flex;
+        justify-content: center;
+      }
+
+      .social-icons {
+          display: flex;
+          justify-content: space-around;
       }
 
       .social-icons a {
@@ -35,23 +47,31 @@
 
        .link {
       background-color: #f9bc60;
+      display: flex;
+      align-items: center;
       }
 
       .link a {
         color: #001e1d;
         text-decoration: none;
+        text-align: center;
+        flex-grow: 1;
       }
 
       .items {
       display: flex;
       flex-direction: column;
+      gap: 30px;
+      max-width: 640px;
+      flex-grow: 1;
       }
     </style>
   </head>
 
   <body>
     <div class = "banner">
-      <img src ="/thumbnails/PhotoJimena.JPG" alt = "Jimena Salinas" class="banner-image">
+      <img 
+      src ="/thumbnails/PhotoJimena.JPG" alt = "Jimena Salinas" class="banner-image">
     </div>
 
     <div class="name">
@@ -59,14 +79,14 @@
     </div>
 
     <div class="link">
-      <img 
+      <img class="thumbnail"
         src = "/thumbnails/github.png">
 
       <a  target = "_blank" href = "https://github.com/jimenasalinas">My Coding Projects</a>
     </div>
 
     <div class ="link">
-      <img  
+      <img  class="thumbnail"
       src = "/thumbnails/linkedin.png"> 
 
       <a target ="_blank" href = "https://www.linkedin.com/in/salinasjimena/">LinkedIn</a>
