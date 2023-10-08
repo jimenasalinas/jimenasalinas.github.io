@@ -6,12 +6,32 @@
   <meta charset="utf-8">
   <meta name="author" content="Jimena Salinas">
   <style>
+
+  @keyframes animatedBackground {
+    0% {
+      background-color: #1E0325;
+    }
+    25% {
+      background-color:  #5a0331; 
+    }
+    50% {
+      background-color:#540354; 
+    }
+    75% {
+      background-color: #1E0325; 
+    }
+    100% {
+      background-color: #0d0011;
+    }
+  }
+
     body {
-      /* padding-top: 40px;
-        padding-bottom: 40px; */
+      font-family: Tacoma, sans-serif;
+      font-size: 17px;
       display: flex;
       justify-content: center;
-      background-color: #1E0325;
+      /* background-color: #1E0325; */
+      animation: animatedBackground 10s infinite;
     }
 
     .banner-image {
@@ -32,6 +52,7 @@
       color: #fffffe;
       display: flex;
       justify-content: center;
+      font-size: 30px;
     }
 
     .banner {
@@ -50,7 +71,8 @@
     }
 
     .link {
-      background-color: #C8BBCB;
+      background-color: rgba(200, 187, 203, 0.7);
+      /* background-color: #C8BBCB; */
       display: flex;
       align-items: center;
       padding: 5px;
